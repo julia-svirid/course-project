@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Course project</title>
 </head>
 <body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="logo">TOYShop</h1>
+            <nav class="navigation">
+                <a class="nav__link" href="#main">home  </a> 
+                <a class="nav__link" href="#catalog">catalog </a>
+                <a class="nav__link" href="#">contacts </a>
+                <a class="nav__link" href="#">log in </a>
+            </nav>
+        </div>
+    </header>
+    <main id='main' class="main">
+        <section class="slider">
+            <img class="slider__img" src="./assets/1.jpg" alt="slider" >
+            <img class="slider__img" src="./assets/2.jpg" alt="slider" >
+            
+            <div class="slider__container">
+                <h2 class="h2">Shop online with us</h2>
+                <p class="slider__text">best offers</p>
+
+            </div>
+
+        </section>
+
+        <section id="catalog" class="catalog">
+                <div class="catalog__nav">
+                    <hr class="hr">
+                <div class="catalog__list">
+                    <a class="catalog__link" href="#">All</a> <img src="./assets/line.png" alt="">
+                    <a class="catalog__link" href="#">Filter</a>  <img src="./assets/line.png" alt="">
+                    <a class="catalog__link" href="#">Soft toys</a>  <img src="./assets/line.png" alt="">
+                    <a class="catalog__link" href="#">Radio-controlled toys</a>  
+                </div>
+                <hr class="hr">
+            </div>
+
+            <div class="catalog__content">
+                
+            </div>
+            
+        </section>
+    </main>
     
+<script src="./index.js"></script>
 </body>
 </html>
